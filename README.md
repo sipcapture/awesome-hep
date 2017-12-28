@@ -18,6 +18,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 ### Native Client Applications
 * [Asterisk](https://github.com/sipcapture/homer/wiki/Examples%3A-Asterisk) - Asterisk is an Open Source PBX and telephony toolkit. It is, in a sense, middleware between Internet and telephony channels on the bottom, and Internet and telephony applications at the top. Asterisk 12 and higher ship with native HEP encapsulation support (res_hep) and are able to natively mirror SIP and RTCP packets to a HEP/EEP Collector such as HOMER.
 * [FreeSwitch](https://github.com/sipcapture/homer/wiki/Examples%3A-FreeSwitch) - FreeSWITCH™ is an open source Real-Time communications platform written in C from the ground up with a modular and extensible architecture, shipping with a natively integrated HEP-EEP Capture Agent designed to work with HOMER.
+* [RTP:Engine](https://github.com/sipwise/rtpengine) - The Sipwise NGCP rtpengine is a proxy for RTP traffic and other UDP based media traffic. It's meant to be used with the Kamailio SIP proxy and forms a drop-in replacement for any of the other available RTP and media proxies, support sending RTCP stats to Homer via HEP.
 
 ### Stand-Alone Client Applications
 * [CaptAgent](https://github.com/sipcapture/captagent) - CaptAgent is a modular packet capture agent/probe for RT protocols with bleeding edge HEP support.
