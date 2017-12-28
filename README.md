@@ -29,8 +29,10 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 ### Tools
 * [HEPgen.js](https://github.com/sipcapture/hepgen.js) - HEPgen is a NodeJS HEP Packet Generator for SIP-less Devs and Unit Testing
 * [HEP Wireshark](https://github.com/sipcapture/hep-wireshark) - HEP-EEP Wireshark Dissector as a LUA plugin
-* [HEPipe.js](https://github.com/sipcapture/hepipe.js) - Pipe arbitrary data rows (logs, events, cdrs, esl, etc) to HEP Server
-* [hammerHEP](https://github.com/negbie/hammerHEP) - HEP Server stress-tool
+* [HEPipe.js](https://github.com/sipcapture/hepipe.js) - Pipe arbitrary data rows (logs, events, cdrs, esl, etc) to HEP Server (NodeJS)
+* [HEPipe C](https://github.com/sipcapture/hepipe) - Pipe arbitrary data rows (logs, events, cdrs, esl, etc) to HEP Server (C)
+* [HEPgen-bash](https://github.com/sipcapture/hepgen-bash) - HEP generator written in bash
+* [hammerHEP](https://github.com/negbie/hammerHEP) - HEP Server stress-tool in Go
 
 ### Cloud - PaaS
 * [sipcapture.io](https://sipcapture.io) - Hosted and Maintained versions of HOMER and HEPIC straight from its makers.
@@ -39,7 +41,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
   * [C](https://github.com/sipcapture/hep-c)
   * [Java](https://github.com/sipcapture/hep-java)
   * [Javascript](https://github.com/sipcapture/hep-js)
-  * [GO](https://github.com/sipcapture/hep-go)
+  * [Go](https://github.com/sipcapture/hep-go)
   * [Perl](https://github.com/sipcapture/hep-perl)
   * [Python](https://github.com/sipcapture/hep-python)
   * [Erlang](https://github.com/sipcapture/hep-erlang)
