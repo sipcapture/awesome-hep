@@ -20,6 +20,8 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects.
 * [HEPlify](https://github.com/sipcapture/heplify) - heplify is captagents little brother. While it offers a compareable performance the design goal was simplicity. It's a single binary which you can run to capture packets and send them to Homer. Right now heplify is able to send SIP, correlated RTCP, RTCPXR and very basic DNS, LOG or TLS handshakes into HOMER.
 * [sngrep](https://github.com/irontec/sngrep) - sngrep is a tool for displaying SIP calls message flows from terminal with native HEP-EEP client and relay capabilities.
 * [sipgrep](https://github.com/sipcapture/sipgrep) - sipgrep is a tool for displaying and troubleshoot SIP signaling over IP networks in console, with native HEP-EEP client and relay capabilities.
+
+### Gateway Applications
 * [paStash](https://github.com/sipcapture/pastash) - PaStasH (pastaʃ'ʃ-utta) is a NodeJS multi I/O processor supporting ingestion, decoding, interpolation and correlation of data - be it logs, packets, events and beyond. PaStash supports the Logstash configuration format and delivers cross-functionality comparable to "Beats" with custom modules, providing a flexible and agnostig data pipelining tool, including HEP-EEP output support.
 * [horaclifix](https://github.com/negbie/horaclifix) - horaclifix sends IPFIX messages from Oracle SBC's into Homer as HEP-EEP
 * [HEPfix.js](https://github.com/sipcapture/hepfix.js) - NodeJS IPFIX adaptor for HOMER/HEP and Oracle Acme Packet SBCs
