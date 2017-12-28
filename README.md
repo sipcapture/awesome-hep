@@ -8,12 +8,12 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects.
 * Do not exceed more than a paragraph.
 
 ### Full-Stack Applications
-* [HOMER](http://github.com/sipcapture/homer) - HOMER is a robust, carrier-grade, scalable SIP Capture system and VoiP Monitoring Application based on HEP/EEP encapsulation, ready to process & store insane amounts of signaling, logs and statistics with instant indexing, search, end-to-end analysis and protocol drill-down capabilities.
-* [HEPIC](http://hepic.tel) - HEPIC is a HEP/EEP centric real-time packet capture framework, with protocol agnostic indexing and highly-scalable correlation capabilities for advanced usage and integrations with 3rd party platforms and services.
+* [HOMER](http://github.com/sipcapture/homer) - HOMER is a robust, carrier-grade, scalable SIP Capture system and VoiP Monitoring Application based on HEP/EEP encapsulation, ready to process & store insane amounts of signaling, logs and statistics with instant indexing, search, end-to-end analysis and protocol drill-down capabilities, built on top of OpenSIPS or Kamailio as Capture Servers.
+* [HEPIC](http://hepic.tel) - HEPIC is a stand-alone HEP/EEP centric real-time packet capture framework, with protocol agnostic indexing and highly-scalable correlation, media and customization capabilities for advanced usage and integrations with 3rd party VoIP/RTC platforms and services.
 
 ### Server Applications
-* [OpenSIPS](https://opensips.org) - OpenSIPS is a GPL implementation of a multi-functionality SIP Server with deep HEP support providing Server, Client and [Switch/Proxy](https://github.com/sipcapture/homer/wiki/Examples%3A-opensips-hepswitch) features to forge and manipulate HEP packets.
-* [Kamailio](https://github.com/kamailio/kamailio) - The Kamailio SIP server is designed for scalability, targeting large deployments (e.g. for IP telephony operators or carriers, which have a large subscriber base or route a big volume of calls) providing Server and Client features to mirror HEP packets.
+* [OpenSIPS](https://opensips.org) - OpenSIPS is a GPL implementation of a multi-functionality SIP Server with deep HEP support providing Server, [Client](http://www.opensips.org/html/docs/modules/2.2.x/siptrace.html) and [Switch/Proxy](https://github.com/sipcapture/homer/wiki/Examples%3A-opensips-hepswitch) features to forge and manipulate HEP packets.
+* [Kamailio](https://github.com/kamailio/kamailio) - The Kamailio SIP server is designed for scalability, targeting large deployments (e.g. for IP telephony operators or carriers, which have a large subscriber base or route a big volume of calls) providing [Server](https://www.kamailio.org/docs/modules/5.0.x/modules/sipcapture.html) and [Client](https://www.kamailio.org/docs/modules/5.0.x/modules/siptrace.html) features to mirror HEP packets.
 
 ### Client Applications
 * [CaptAgent](https://github.com/sipcapture/captagent) - CaptAgent is a modular packet capture agent/probe for RT protocols with bleeding edge HEP support.
@@ -22,7 +22,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects.
 * [sipgrep](https://github.com/sipcapture/sipgrep) - sipgrep is a tool for displaying and troubleshoot SIP signaling over IP networks in console, with native HEP-EEP client and relay capabilities.
 
 ### Gateway Applications
-* [paStash](https://github.com/sipcapture/pastash) - PaStasH (pastaʃ'ʃ-utta) is a NodeJS multi I/O processor supporting ingestion, decoding, interpolation and correlation of data - be it logs, packets, events and beyond. PaStash supports the Logstash configuration format and delivers cross-functionality comparable to "Beats" with custom modules, providing a flexible and agnostig data pipelining tool, including HEP-EEP output support.
+* [paStash](https://github.com/sipcapture/pastash) - PaStasH (pastaʃ'ʃ-utta) is a NodeJS multi I/O processor supporting ingestion, decoding, interpolation and correlation of data - be it logs, packets, events and beyond. PaStash supports the Logstash configuration format and delivers cross-functionality comparable to "Beats" with custom modules, providing a flexible and agnostig data pipelining tool, including [HEP-EEP](https://github.com/sipcapture/paStash/blob/master/docs/outputs/hep.md) output support.
 * [horaclifix](https://github.com/negbie/horaclifix) - horaclifix sends IPFIX messages from Oracle SBC's into Homer as HEP-EEP
 * [HEPfix.js](https://github.com/sipcapture/hepfix.js) - NodeJS IPFIX adaptor for HOMER/HEP and Oracle Acme Packet SBCs
 
