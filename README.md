@@ -1,3 +1,5 @@
+# <img src="http://i.imgur.com/RSUlFRa.gif" width="150" alt="HEP">
+
 # Awesome HEP  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects and products.
 
