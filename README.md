@@ -15,11 +15,16 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 * [OpenSIPS](https://opensips.org) - OpenSIPS is a GPL implementation of a multi-functionality SIP Server with deep HEP support providing Server, [Client](http://www.opensips.org/html/docs/modules/2.2.x/siptrace.html) and [Switch/Proxy](https://github.com/sipcapture/homer/wiki/Examples%3A-opensips-hepswitch) features to forge and manipulate HEP packets.
 * [Kamailio](https://github.com/kamailio/kamailio) - The Kamailio SIP server is designed for scalability, targeting large deployments (e.g. for IP telephony operators or carriers, which have a large subscriber base or route a big volume of calls) providing [Server](https://www.kamailio.org/docs/modules/5.0.x/modules/sipcapture.html) and [Client](https://www.kamailio.org/docs/modules/5.0.x/modules/siptrace.html) features to mirror HEP packets.
 
-### Client Applications
+### Native Client Applications
+* [Asterisk](https://github.com/sipcapture/homer/wiki/Examples%3A-Asterisk) - Asterisk is an Open Source PBX and telephony toolkit. It is, in a sense, middleware between Internet and telephony channels on the bottom, and Internet and telephony applications at the top. Asterisk 12 and higher ship with native HEP encapsulation support (res_hep) and are able to natively mirror SIP and RTCP packets to a HEP/EEP Collector such as HOMER.
+* [FreeSwitch](https://github.com/sipcapture/homer/wiki/Examples%3A-FreeSwitch) - FreeSWITCH™ is an open source Real-Time communications platform written in C from the ground up with a modular and extensible architecture, shipping with a natively integrated HEP-EEP Capture Agent designed to work with HOMER.
+
+### Stand-Alone Client Applications
 * [CaptAgent](https://github.com/sipcapture/captagent) - CaptAgent is a modular packet capture agent/probe for RT protocols with bleeding edge HEP support.
 * [HEPlify](https://github.com/sipcapture/heplify) - heplify is captagents little brother. While it offers a compareable performance the design goal was simplicity. It's a single binary which you can run to capture packets and send them to Homer. Right now heplify is able to send SIP, correlated RTCP, RTCPXR and very basic DNS, LOG or TLS handshakes into HOMER.
 * [sngrep](https://github.com/irontec/sngrep) - sngrep is a tool for displaying SIP calls message flows from terminal with native HEP-EEP client and relay capabilities.
 * [sipgrep](https://github.com/sipcapture/sipgrep) - sipgrep is a tool for displaying and troubleshoot SIP signaling over IP networks in console, with native HEP-EEP client and relay capabilities.
+* [captagent-js](https://github.com/sipcapture/captagent-js) - Basic HEP Agent in NodeJS using HEP-js npm module.
 
 ### Gateway Applications
 * [paStash](https://github.com/sipcapture/pastash) - PaStasH (pastaʃ'ʃ-utta) is a NodeJS multi I/O processor supporting ingestion, decoding, interpolation and correlation of data - be it logs, packets, events and beyond. PaStash supports the Logstash configuration format and delivers cross-functionality comparable to "Beats" with custom modules, providing a flexible and agnostig data pipelining tool, including [HEP-EEP](https://github.com/sipcapture/paStash/blob/master/docs/outputs/hep.md) output support.
