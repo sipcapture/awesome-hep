@@ -12,7 +12,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects.
 * [HEPIC](http://hepic.tel) - HEPIC is a HEP/EEP centric real-time packet capture framework, with protocol agnostic indexing and highly-scalable correlation capabilities for advanced usage and integrations with 3rd party platforms and services.
 
 ### Server Applications
-* [OpenSIPS](https://opensips.org) - OpenSIPS is a GPL implementation of a multi-functionality SIP Server with deep HEP support providing Server, Client and Switching features to forge and manipulate HEP packets.
+* [OpenSIPS](https://opensips.org) - OpenSIPS is a GPL implementation of a multi-functionality SIP Server with deep HEP support providing Server, Client and [Switch/Proxy](https://github.com/sipcapture/homer/wiki/Examples%3A-opensips-hepswitch) features to forge and manipulate HEP packets.
 * [Kamailio](https://github.com/kamailio/kamailio) - The Kamailio SIP server is designed for scalability, targeting large deployments (e.g. for IP telephony operators or carriers, which have a large subscriber base or route a big volume of calls) providing Server and Client features to mirror HEP packets.
 
 ### Client Applications
