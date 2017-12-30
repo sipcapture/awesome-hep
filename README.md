@@ -21,6 +21,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 * [Asterisk](https://github.com/sipcapture/homer/wiki/Examples%3A-Asterisk) - Asterisk is an Open Source PBX and telephony toolkit. It is, in a sense, middleware between Internet and telephony channels on the bottom, and Internet and telephony applications at the top. Asterisk 12 and higher ship with native HEP encapsulation support (res_hep) and are able to natively mirror SIP and RTCP packets to a HEP/EEP Collector such as HOMER.
 * [FreeSwitch](https://github.com/sipcapture/homer/wiki/Examples%3A-FreeSwitch) - FreeSWITCH™ is an open source Real-Time communications platform written in C from the ground up with a modular and extensible architecture, shipping with a natively integrated HEP-EEP Capture Agent designed to work with HOMER.
 * [RTP:Engine](https://github.com/sipwise/rtpengine) - The Sipwise NGCP rtpengine is a proxy for RTP traffic and other UDP based media traffic. It's meant to be used with the Kamailio SIP proxy and forms a drop-in replacement for any of the other available RTP and media proxies, support sending RTCP stats to Homer via HEP.
+  * [Speech-to-Text](https://github.com/sipcapture/homer/wiki/Examples%3A-RTPEngine-speech) - RTPEngine Speech-to-Text NodeJS Spooler using the Bing Speech API and HEP Output.
 
 ### Stand-Alone Client Applications
 * [CaptAgent](https://github.com/sipcapture/captagent) - CaptAgent is a modular packet capture agent/probe for RT protocols with bleeding edge HEP support.
@@ -33,6 +34,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 * [paStash](https://github.com/sipcapture/pastash) - PaStasH (pastaʃ'ʃ-utta) is a NodeJS multi I/O processor supporting ingestion, decoding, interpolation and correlation of data - be it logs, packets, events and beyond. PaStash supports the Logstash configuration format and delivers cross-functionality comparable to "Beats" with custom modules, providing a flexible and agnostig data pipelining tool, including [HEP-EEP](https://github.com/sipcapture/paStash/blob/master/docs/outputs/hep.md) output support.
 * [horaclifix](https://github.com/negbie/horaclifix) - horaclifix sends IPFIX messages from Oracle SBC's into Homer as HEP-EEP
 * [HEPfix.js](https://github.com/sipcapture/hepfix.js) - NodeJS IPFIX adaptor for HOMER/HEP and Oracle Acme Packet SBCs
+* [HEPSwitch](https://github.com/lmangani/docker-hepswitch) - Docker container providing HEP/EEP Routing and Switching out-of-the-box.
 
 ### Tools
 * [HEPgen.js](https://github.com/sipcapture/hepgen.js) - HEPgen is a NodeJS HEP Packet Generator for SIP-less Devs and Unit Testing
@@ -44,6 +46,9 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 
 ### Cloud - PaaS
 * [sipcapture.io](https://sipcapture.io) - Hosted and Maintained versions of HOMER and HEPIC straight from its makers.
+
+### Third-Party Support
+* [nDPI](https://github.com/ntop/nDPI) - Deep-Packet Inspection library from ntop, supporting HEP/EEP protocol recognition and tagging.
 
 ### Libraries and Code Examples
   * [C](https://github.com/sipcapture/hep-c)
