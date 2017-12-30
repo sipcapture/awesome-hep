@@ -11,7 +11,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 
 ### Full-Stack Applications
 * [HOMER](http://github.com/sipcapture/homer) - HOMER is a robust, carrier-grade, scalable SIP Capture system and VoiP Monitoring Application based on HEP/EEP encapsulation, ready to process & store insane amounts of signaling, logs and statistics with instant indexing, search, end-to-end analysis and protocol drill-down capabilities, built on top of OpenSIPS or Kamailio as Capture Servers.
-* [HEPIC](http://hepic.tel) - HEPIC is a stand-alone HEP/EEP centric real-time packet capture framework, with protocol agnostic indexing and highly-scalable correlation, media and customization capabilities for advanced usage and integrations with 3rd party VoIP/RTC platforms and services.
+* [HEPIC](http://hepic.tel) - HEPIC is a stand-alone HEP/EEP centric real-time packet capture framework, with protocol agnostic indexing and highly-scalable correlation, media analytics, exporting and customization capabilities for advanced usage and integrations with 3rd party VoIP/RTC platforms and services.
 
 ### Server Applications
 * [OpenSIPS](https://opensips.org) - OpenSIPS is a GPL implementation of a multi-functionality SIP Server with deep HEP support providing Server, [Client](http://www.opensips.org/html/docs/modules/2.2.x/siptrace.html) and [Switch/Proxy](https://github.com/sipcapture/homer/wiki/Examples%3A-opensips-hepswitch) features to forge and manipulate HEP packets.
@@ -47,8 +47,8 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 ### Cloud - PaaS
 * [sipcapture.io](https://sipcapture.io) - Hosted and Maintained versions of HOMER and HEPIC straight from its makers.
 
-### Third-Party Support
-* [nDPI](https://github.com/ntop/nDPI) - Deep-Packet Inspection library from ntop, supporting HEP/EEP protocol recognition and tagging.
+### Network Applications
+* [nDPI](https://github.com/ntop/nDPI) - Network Deep-Packet Inspection library from ntop, supporting HEP/EEP protocol recognition and tagging.
 
 ### Libraries and Code Examples
   * [C](https://github.com/sipcapture/hep-c)
