@@ -16,6 +16,8 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 ### Server Applications
 * [OpenSIPS](https://opensips.org) - OpenSIPS is a GPL implementation of a multi-functionality SIP Server with deep HEP support providing Server, [Client](http://www.opensips.org/html/docs/modules/2.2.x/siptrace.html) and [Switch/Proxy](https://github.com/sipcapture/homer/wiki/Examples%3A-opensips-hepswitch) features to forge and manipulate HEP packets.
 * [Kamailio](https://github.com/kamailio/kamailio) - The Kamailio SIP server is designed for scalability, targeting large deployments (e.g. for IP telephony operators or carriers, which have a large subscriber base or route a big volume of calls) providing [Server](https://www.kamailio.org/docs/modules/5.0.x/modules/sipcapture.html) and [Client](https://www.kamailio.org/docs/modules/5.0.x/modules/siptrace.html) features to mirror HEP packets.
+* [HEPlify-server](https://github.com/sipcapture/heplify-server) - HEPlify-Server is a stand-alone HOMER Capture Server developed in Go, optimized for speed and simplicity. Distributed as a single binary ready to capture TCP/TLS/UDP HEP encapsulated packets from heplify or any other HEP enabled agent or platform, indexing to database using H5 or H7 table format, producing basic usage metrics timeseries and providing users with simple, basic options for correlation and tagging inline.
+* [HEPop](https://github.com/sipcapture/hepop) - HEPop is a stand-alone HEP Capture Server developed in NodeJS, designed to prototype different backends for HOMER7 and emitting Metrics to external backends such as InfluxDB and Prometheus.
 
 ### Native Client Applications
 * [Asterisk](https://github.com/sipcapture/homer/wiki/Examples%3A-Asterisk) - Asterisk is an Open Source PBX and telephony toolkit. It is, in a sense, middleware between Internet and telephony channels on the bottom, and Internet and telephony applications at the top. Asterisk 12 and higher ship with native HEP encapsulation support (res_hep) and are able to natively mirror SIP and RTCP packets to a HEP/EEP Collector such as HOMER.
@@ -29,6 +31,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 * [sngrep](https://github.com/irontec/sngrep) - sngrep is a tool for displaying SIP calls message flows from terminal with native HEP-EEP client and relay capabilities.
 * [sipgrep](https://github.com/sipcapture/sipgrep) - sipgrep is a tool for displaying and troubleshoot SIP signaling over IP networks in console, with native HEP-EEP client and relay capabilities.
 * [captagent-js](https://github.com/sipcapture/captagent-js) - Basic HEP Agent in NodeJS using HEP-js npm module.
+* [RTPAgent](mailto:sales@qxip.net) - Advanced HEP Agent with in-line RTP Analyzer and Recorder
 
 ### Gateway Applications
 * [paStash](https://github.com/sipcapture/pastash) - PaStasH (pastaʃ'ʃ-utta) is a NodeJS multi I/O processor supporting ingestion, decoding, interpolation and correlation of data - be it logs, packets, events and beyond. PaStash supports the Logstash configuration format and delivers cross-functionality comparable to "Beats" with custom modules, providing a flexible and agnostig data pipelining tool, including [HEP-EEP](https://github.com/sipcapture/paStash/blob/master/docs/outputs/hep.md) output support.
