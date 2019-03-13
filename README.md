@@ -37,6 +37,7 @@ A curated list of [HEP-EEP](https://github.com/sipcapture/hep) enabled projects 
 * [sipgrep](https://github.com/sipcapture/sipgrep) - sipgrep is a tool for displaying and troubleshoot SIP signaling over IP networks in console, with native HEP-EEP client and relay capabilities.
 * [captagent-js](https://github.com/sipcapture/captagent-js) - Basic HEP Agent in NodeJS using HEP-js npm module.
 * [RTPAgent](mailto:sales@qxip.net) - Advanced HEP Agent with in-line RTP Analyzer and Recorder
+* [HEPjack](https://github.com/sipcapture/HEPjack.js) - Elegantly Sniff Forward-Secrecy TLS/SIP to HEP at the source using Frida
 
 ### Gateway Applications
 * [paStash](https://github.com/sipcapture/pastash) - PaStasH (pastaʃ'ʃ-utta) is a NodeJS multi I/O processor supporting ingestion, decoding, interpolation and correlation of data - be it logs, packets, events and beyond. PaStash supports the Logstash configuration format and delivers cross-functionality comparable to "Beats" with custom modules, providing a flexible and agnostig data pipelining tool, including [HEP-EEP](https://github.com/sipcapture/paStash/blob/master/docs/outputs/hep.md) output support.
